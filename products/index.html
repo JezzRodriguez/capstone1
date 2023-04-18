@@ -1,34 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/navigation.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/products/products.css">
 </head>
+
 <body>
-<h1>
-    <nav>
-        <div class="logo">
-            <img src="/images/logo.png" alt="Sahsik Logo">
+    <h1>
+        <nav>
+            <div class="logo">
+                <img src="/images/logo.png" alt="Sahsik Logo">
+            </div>
+            <div class="hamburger">
+                <div class="bars1"></div>
+                <div class="bars2"></div>
+                <div class="bars3"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">home</a></li>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/checkout/">Checkout</a></li>
+                <li><a href="/userregistration/">Sign Up</a></li>
+                <li><a href="/contactus/">Contact Us</a></li>
+                <li><button class="login-button" href="/userlogin/">Sign In</button></li>
+            </ul>
+        </nav>
+    </h1>
+
+
+    <div class="products">
+        <div class="card" style="width: 18rem;">
+            <img src="/images/tumeric.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#" class="card-title">Tumeric Soap Bar</a></h5>
+                <p class="card-text">Provides a variety of skin help: brightens, kills bacteria, rids dry skin cells, &
+                    removes blemishes.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>$9.75 USD</b></li>
+            </ul>
+            <div class="card-body">
+                <a href="/checkout/index.html" <button type="button" class="btn btn-dark">Add to cart</button></a>
+            </div>
         </div>
-        <div class="hamburger">
-            <div class="bars1"></div>
-            <div class="bars2"></div>
-            <div class="bars3"></div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/eczema.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#" class="card-title">Eczema Soap Bar</a></h5>
+                <p class="card-text">Treat your eczema with an 100% organic soap that soothes irritated skin and has a
+                    wonderful herbal scent.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>$9.75 USD</b></li>
+                <li class="list-group-item">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </li>
+            </ul>
+            <div class="card-body">
+
+                <a href="/checkout/index.html" <button type="button" class="btn btn-dark">Add to cart</button></a>
+            </div>
         </div>
-        <ul class="nav-links">
-            <li><a href="/">home</a></li>
-            <li><a href="/products/">Products</a></li>
-            <li><a href="/checkout/">Checkout</a></li>
-            <li><a href="/userregistration/">Sign Up</a></li>
-            <li><a href="/contactus/">Contact Us</a></li>
-            <li><button class="login-button" href="/userlogin/">Sign In</button></li>
-        </ul>
-    </nav>
-</h1>
+        <div class="card" style="width: 18rem;">
+            <img src="/images/citrus.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#" class="card-title">Citrus Soap Bar</a></h5>
+                <p class="card-text">Our all-natural soap is made with Sweet Orange Essential Oil and Bergamot Essential
+                    Oil for a delightful, fruity scent.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>$9.75 USD</b></li>
+                <li class="list-group-item"><a href="/checkout/index.html" <button type="button"
+                        class="btn btn-dark">Add to cart</button></a> </li>
+                <li class="list-group-item">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </li>
+            </ul>
+            <div class="card-body">
+
+            </div>
+        </div>
+    </div>
+    <div class="product2">
+        <div class="card" style="width: 18rem;">
+            <img src="/images/acne.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#" class="card-title">Black "Acne Inversa" Soap</a></h5>
+                <p class="card-text">Aids with acne inversa also known as Hidradenitis Supurativa.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>$9.75 USD</b></li>
+            </ul>
+            <div class="card-body">
+                <a href="/checkout/index.html" <button type="button" class="btn btn-dark">Add to cart</button></a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/children.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#" class="card-title">Kids's Soap</a></h5>
+                <p class="card-text">These little animal soaps are made specifically for children, suitable for all skin
+                    types. Made with all natural and calming ingredients. </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>$5.75 USD</b></li>
+            </ul>
+            <div class="card-body">
+                <a href="/checkout/index.html" <button type="button" class="btn btn-dark">Add to cart</button></a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/tumericbar.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#" class="card-title">Tumeric Soap Block</a></h5>
+                <p class="card-text">A whole block of our hand-crafted tumeric soap. Providing you with all benefits
+                    x10!</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>$50.75 USD</b></li>
+            </ul>
+            <div class="card-body">
+                <a href="/checkout/index.html" <button type="button" class="btn btn-dark">Add to cart</button></a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div />
 </body>
+
 </html>
