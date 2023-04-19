@@ -13,32 +13,52 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="login.css">
-    
+
 
 </head>
 
 <body>
     <h1>
-        <nav>
-            <div class="logo">
-                <img src="/images/logo.png" alt="Sahsik Logo">
-            </div>
-            <div class="hamburger">
-                <div class="bars1"></div>
-                <div class="bars2"></div>
-                <div class="bars3"></div>
-            </div>
-            <ul class="nav-links">
-                <li><a href="/">home</a></li>
-                <li><a href="/products/">Products</a></li>
-                <li><a href="/checkout/">Checkout</a></li>
-                <li><a href="/userregistration/">Sign Up</a></li>
-                <li><a href="/contactus/">Contact Us</a></li>
-                <li><a href="/userlogin/"><button class="login-button" type="button">Log In</button></a></li>
-            </ul>
-        </nav>
+
+        <a href="/index.html"><svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="white"
+                class="bi bi-house-heart-fill" viewBox="0 0 16 16">
+                <path
+                    d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707L7.293 1.5Z" />
+                <path
+                    d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9.293Zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018Z" />
+            </svg></a>
     </h1>
-    
+    <h2>
+        <a class="home" href="/index.html">Home</a>
+    </h2>
+    <div class="loginform">
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+                <img src="/images/logo.png" alt="Sahsik Skin Logo" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username/Email</b></label>
+                <input type="text" placeholder="Enter Username or Email" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox"> Remember me
+                    </label>
+                    <a class="forgot" href="#">Forgot Password?</a>
+                </div>
+                <div class="login">
+                    <button type="submit">Login</button>
+                </div>
+
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>

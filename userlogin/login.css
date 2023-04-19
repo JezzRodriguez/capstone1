@@ -1,0 +1,88 @@
+
+h1,h2{
+    margin-left:80rem;
+}
+h2{
+    -webkit-text-fill-color: gold;
+    font-size: medium;
+}
+.loginform{
+    display:flex;
+    justify-content: center;
+    background-color:white;
+}
+.home{
+    -webkit-text-fill-color:white;
+}
+body{
+    background-color: black;
+}
+form {
+    border: 3px solid #f1f1f1;
+  }
+  .remember-forgot{
+    font-size: 14.5px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+  }
+  .forgot{
+    -webkit-text-fill-color: red;
+  }
+  .login{
+    align-content: center;
+  }
+ 
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    align-content:  center;
+    background-color: rgb(204, 177, 27);
+    color: white;
+    padding: 14px 20px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+ 
+  .container {
+    padding: 16px;
+  }
+  
+  
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
