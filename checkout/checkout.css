@@ -1,0 +1,27 @@
+.form-label{
+    font-size: medium;
+}
+.form-check{
+    font-size: medium;
+    -webkit-text-fill-color: gray;
+
+}
+.card-display{
+    font-size: medium;
+    -webkit-text-fill-color: gray;
+}
+.submit{
+    margin-left: 35rem;
+    -webkit-text-fill-color: white;
+}
+.text-success{
+    font-size: large;
+}
+.text-body-secondary{
+    font-size: x-large;
+    -webkit-text-fill-color: black;
+}
+.total{
+    font-size: x-large;
+
+}
