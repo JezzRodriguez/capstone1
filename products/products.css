@@ -9,7 +9,6 @@ body{
 .product2{
     display: flex;
     justify-content: space-around;
-    padding-block-start: top 4px;
 }
 .card-title{
     text-align: center;
