@@ -1,16 +1,18 @@
 # capstone1
-### This is the Home Page
+#### A sample e-commerce site using html, css, and bootstrap. This is a mock-up website for my family's soap business. 
+## Images of each page
+### Home Page
 ![Home Page](./images/homepage.png)
 #
-### This is the Product Page
+###  Product Page
 ![Product Page](./images/product.png)
 #
-### This is the Log in Page
+###  Log in Page
 ![Log In Page](./images/loginpage.png)
 #
-### This is the Registration Page
+###  Registration Page
 ![Regsitration Page](./images/registerpage.png) 
-### This is the Checkout Page
+### Check Out Page
 ![Checkout Page](./images/checkout.png)
-### This is the Contact Us Page
+###  Contact Us Page
 ![Contact Us](/images/contactpage.png)

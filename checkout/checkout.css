@@ -23,5 +23,10 @@
 }
 .total{
     font-size: x-large;
-
 }
+table, th, td {
+    border: 1px solid black;
+  }
+  .table{
+    align-content: center;
+  }
