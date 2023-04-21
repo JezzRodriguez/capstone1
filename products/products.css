@@ -1,3 +1,4 @@
+/* Positions the first three product cards */
 .products{
     display: flex;
     justify-content: space-around;
@@ -22,3 +23,7 @@ body{
 .card-body{
     text-align: center;
 }
+/* Colors the checked stars */
+.checked {
+    color: orange;
+  }
