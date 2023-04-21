@@ -1,3 +1,4 @@
+/* Styles mission statement */
 .mission{
     text-align: center;
     font-family: fantasy;
@@ -7,6 +8,7 @@ h3{
     text-align: center;
     
 }
+/* Styles image */
 .ceo img{
     display: block;
     margin-left: auto;
@@ -14,6 +16,7 @@ h3{
     width: 20rem;
     height: 20rem;
 }
+/* Styles the text */
 .ceobio{
     font-size: x-large;
     margin-top:4rem ;
@@ -22,6 +25,7 @@ h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+/* Styles the bulleted list */
 .list{
     text-align: left;
     display: flex;
