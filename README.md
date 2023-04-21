@@ -8,4 +8,4 @@
 ### This is the Log in Page
 ![Log In Page](./images/loginpage.png)
 ### This is the Registration Page
-![Regsitration Page](./images/registerpage.png)
+![Regsitration Page](./images/registerpage.png) 
