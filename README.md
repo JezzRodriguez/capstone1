@@ -12,3 +12,5 @@
 ![Regsitration Page](./images/registerpage.png) 
 ### This is the Checkout Page
 ![Checkout Page](./images/checkout.png)
+### This is the Contact Us Page
+![Contact Us](/images/contactpage.png)
